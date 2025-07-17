@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Clock + To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-toggle" onclick="toggleTheme()">
+    <span class="theme-toggle-icon">🌙</span>
+    <span id="theme-text">Dark</span>
+  </div>
+
+  <h1>Live Clock</h1>
+  <div id="clock">00:00:00</div>
+  <div id="date"></div>
+  <div id="timezone"></div>
+
+  <div id="todo-container">
+    <h2>To-Do List</h2>
+    <div id="todo-input-container">
+      <input type="text" id="todo-input" placeholder="Add a task..." />
+      <input type="date" id="due-date-input" />
+      <button id="add-btn">Add</button>
+    </div>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
