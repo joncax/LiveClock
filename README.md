@@ -32,9 +32,13 @@ This project is a responsive and interactive web application that combines a **L
 ## 📁 Project Structure
 
 📦 project-root/
+
 ├── index.html # Main HTML structure
+
 ├── style.css # Styling for dark/light themes and layout
+
 ├── script.js # JavaScript logic for clock, to-do list, and theme toggle
+
 └── README.md # Project documentation
 
 ## 🧪 How to Use
